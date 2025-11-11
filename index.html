@@ -47,43 +47,61 @@
 					</nav>
 
 				<!-- Main -->
-					<div id="main">
+				<div id="main">
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<span class="date">February 01, 2024</span>
-									<h2><a href="https://github.com/mzafsar/ML_project.git"> Machine Learning <br />
-										Projects</a></h2>
-									<p>My key projects demonstrating data analysis, predictive modeling, and AI applications.</p>
-								</header>
-								
-						<div class="projects-grid">
-							<!--Prject 1-->
-							<article>
-								<a href="https://github.com/mzafsar/ML_project" target="_blank" class="image main">
-									<img src="images/ml.jpg" alt="Bicycle Sharing Project" />
-								</a>
-								<h3>Bicycle Sharing Demand Prediction</h3>
-								<p>Built a regression model to predict bike rental demand using weather and seasonal data.</p>
-								<ul class="actions special">
-									<li><a href="https://github.com/mzafsar/ML_project/blob/main/Bicycle%20sharing.ipynb" target="_blank" class="button large">View Project</a></li>
-								</ul>
-							</article>
-							 <!-- Project 2 -->
-						    <article>
-						      <a href="https://github.com/mzafsar/Customer_Segmentation" target="_blank" class="image main">
-						        <img src="images/customer_segmentation.jpg" alt="Customer Segmentation Project" />
-						      </a>
-						      <h3>Customer Segmentation using Clustering</h3>
-						      <p>Applied K-Means and hierarchical clustering to identify unique customer segments.</p>
-						      <ul class="actions special">
-						        <li><a href="https://github.com/mzafsar/Customer_Segmentation/blob/main/Customer_Segmentation.ipynb" target="_blank" class="button large">View Project</a></li>
-						      </ul>
-						    </article>
-						  </div>
-						</section>
-								<!-- Add this CSS in your <style> tag or stylesheet -->
+  <!-- Featured Post -->
+  <article class="post featured">
+    <header class="major">
+      <span class="date">February 01, 2024</span>
+      <h2>
+        <a href="https://github.com/mzafsar/ML_project" target="_blank">
+          Machine Learning <br />Projects
+        </a>
+      </h2>
+      <p>My key projects demonstrating data analysis, predictive modeling, and AI applications.</p>
+    </header>
+
+    <!-- Projects Grid -->
+    <div class="projects-grid">
+
+      <!-- Project 1 -->
+      <article>
+        <a href="https://github.com/mzafsar/ML_project" target="_blank" class="image main">
+          <img src="images/ml.jpg" alt="Bicycle Sharing Project" />
+        </a>
+        <h3>Bicycle Sharing Demand Prediction</h3>
+        <p>Built a regression model to predict bike rental demand using weather and seasonal data.</p>
+        <ul class="actions special">
+          <li>
+            <a href="https://github.com/mzafsar/ML_project/blob/main/Bicycle%20sharing.ipynb" target="_blank" class="button large">
+              View Project
+            </a>
+          </li>
+        </ul>
+      </article>
+
+      <!-- Project 2 -->
+      <article>
+        <a href="https://github.com/mzafsar/Customer_Segmentation" target="_blank" class="image main">
+          <img src="images/customer_segmentation.jpg" alt="Customer Segmentation Project" />
+        </a>
+        <h3>Customer Segmentation using Clustering</h3>
+        <p>Applied K-Means and hierarchical clustering to identify unique customer segments.</p>
+        <ul class="actions special">
+          <li>
+            <a href="https://github.com/mzafsar/Customer_Segmentation/blob/main/Customer_Segmentation.ipynb" target="_blank" class="button large">
+              View Project
+            </a>
+          </li>
+        </ul>
+      </article>
+
+    </div> <!-- end .projects-grid -->
+  </article> <!-- end .post.featured -->
+
+</div> <!-- end #main -->
+
+<!-- Add this CSS inside your <style> tag or stylesheet -->
 <style>
 .projects-grid {
   display: grid;
@@ -95,7 +113,11 @@
   width: 100%;
   border-radius: 10px;
 }
+.projects-grid h3 {
+  margin-top: 1rem;
+}
 </style>
+					
 
 						<!-- Posts -->
 							<section class="posts">
@@ -257,6 +279,7 @@
 
 	</body>
 </html>
+
 
 
 
